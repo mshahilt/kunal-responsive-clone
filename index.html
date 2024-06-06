@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        * {
+            font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+        .ul1 {
+            color: gray;
+            font-weight: 600;
+        }
+        .btn-home{
+            padding: 10px;
+            font-weight: 500;
+        }
+        .custom-col {
+        max-width: 25%;
+        }
+        .nav-bar{
+            width: 100%;
+            position: fixed;
+        }
+        .nav-button{
+            
+            background-color: hsl(var(--gray-50));
+            opacity: 50%;
+            font-size: .9rem;
+            color: hsl(var(--gray-600));
+            font-weight: 700;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .nav-buttons:hover{
+            background-color: rgb(227, 227, 227);
+            border-radius: 5px;
+                }
+       .part8-div2-div3{
+            border-top: solid 1px;
+            margin-bottom: 0;
+            margin-top: 100px;
+            width: 80%;
+            margin: auto;
+            padding-bottom: 50px;
+            border-color:  hsla(218, 15%, 65%, 1);
+            background-color: #1d2939;;
+        }
+        .part8-div2-div3-p1{
+            padding-top: 50px;
+            color: hsla(218, 15%, 65%, 1);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-0 col-md-1 nav-bar" style="margin-left: 40px;"></div>
+            <div class="col-12 col-md-10">
+                <nav class="navbar navbar-expand-lg bg-light nav-bar position-fixed">
+                    <div class="container-fluid px-md-5" style="z-index: 10;">
+                        <a class="navbar-brand" href="#"><img src="https://www.techwithkunal.com/_next/static/media/logo_type.41651329.svg" alt="kunal Kushwaha" class="img-fluid" style="max-width: 150px;"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body justify-content-end style="z-index: 10;">
+                                <ul class="navbar-nav ul1">
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="#"><button class="nav-button">About</button></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><button class=" nav-button">Courses</button></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><button class=" nav-button">Sponsorships</button></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link"><button class=" nav-button">Blog</button></a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link" href="#"><button class=" nav-button">newsletter</button></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-0 col-md-1 nav-bar" style="margin-right: 40px;"></div>
+        </div>
+    </div>    
+    
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="pt-5 display-4 fw-bolder">Driving Innovation, Educating Minds,<br> and Strengthening Developer Relations</h1>
+            </div>
+            <div class="col-12">
+                <p class="text-muted lh-base fs-5 pt-5">Kunal Kushwaha works as a developer relations manager at Civo, where he drives innovation in <br>  cloud-native technologies and has educated thousands of developers. Renowned for his <br> empathetic approach and community leadership, he has been a speaker at global tech <br> conferences, embodying expertise and passion in every endeavor.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-2 pt-3">
+                <button type="button" class="btn btn-light border w-100 btn-home">Know More</button>
+            </div>
+            <div class="col-12 col-md-12 col-lg-2 pt-3">
+                <button type="button" class="btn btn-primar w-100 btn-home" style="background-color: rgb(76, 68, 139); color: white;">Get in touch</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <img class="img-fluid pt-5 rounded" src="https://www.techwithkunal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fheader_image.f63edfce.webp&w=1920&q=75" alt="" style="border-radius: 15px;">
+            </div>
+        </div>
+    </div>    
+
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col-lg-4 col-md-12 col-12 ps-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="violet" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                </svg>
+                <h3 class="fw-bold">About me.</h3>
+                <p class="fs-5">DevRel manager at <u>Civo</u>, CNCF ambassador and <u>GitHub star</u></p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <h6 class="fs-5">Educator and mentor</h6>
+                <p">Has educated thousands of developers, sharing in-depth knowledge and expertise in tech.</p>
+
+                <h6 class="fs-5 pb-0">DevOps consultant</h6>
+                <p>Provides insightful consultancy to companies embarking on their DevOps journeys.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <h6 class="fs-5">Community leader & <u>keynote speaker</u></h6>
+                <p>Renowned for exceptional community leadership and engaging as a speaker at global tech conferences.</p>
+                
+                <h6 class="fs-5">Emplathy and professionalism</h6>
+                <p>Known for a unique blend of empathetic understanding and professional acumen in his approach to work and life.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid pt-3 bg-light pb-5 px-5">
+        <div class="row text-center">
+            <div class="col-12 fw-bold">
+                <p style="color: hsla(258, 54%, 52%, 1);">Courser</p>
+            </div>
+            <div class="col-12">
+                <h2 class="fw-bold">Teaching developers to upskill themselves.</h2>
+            </div>
+            <div class="col-12">
+                <div class= "text-center text-muted"><h6 style="max-width: 70%; margin-left: auto; margin-right: auto;">Step into a world of learning with my comprehensive courses, designed for developers at all levels. I guide you through the intricacies of Machine Learning, the practical applications of DevOps, and mastery of the latest development technologies and complex infrastructures.</h6></div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center text-center pt-4">
+            <div class="col-lg-1"></div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="violet" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+                <p class="part5-div4-ph">Widely acclaimed courses</p>
+                <p class="part5-div4-pd">Join thousands who have benefitted from my courses, backed by thousands of positive reviews.</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="violet" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                </svg>
+                <p class="part5-div4-ph">Latest tech trends webinars</p>
+                <p class="part5-div4-pd">Regular webinars and sessions to keep you updated with the latest technological advancements.</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="violet" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-box">
+                    <path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"></path>
+                    <path d="m3.3 7 8.7 5 8.7-5"></path>
+                    <path d="M12 22V12"></path>
+                </svg>
+                <p class="part5-div4-ph">Free access to knowledge</p>
+                <p class="part5-div4-pd">All courses are completely free to watch, making quality education accessible to everyone.</p>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-12 pt-3">
+                <button type="button" class="text-white fs-5 px-3 py-1" style="background-color: rgb(76, 68, 139); border-radius: 3px; border-style:none;">Primary</button>
+            </div>
+        </div>
+        
+    </div>
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col-lg-4 col-md-12 col-12">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="violet" stroke="violet" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bar-chart2 ">
+                    <line x1="18" x2="18" y1="20" y2="10"></line>
+                    <line x1="12" x2="12" y1="20" y2="4"></line>
+                    <line x1="6" x2="6" y1="20" y2="14"></line>
+                </svg>
+                <h3 class="fw-bold">Sponsorship<br>opportunities</h3>
+                <p class="part6-div1-p2">As a passionate advocate for ethical community education and fostering meaningful connections, I offer unique sponsorship opportunities that benefit both your company and the broader developer community.</p>
+            </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 40 40" fill="white" stroke="violet" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 11a9 9 0 0 1 9 9"></path>
+                        <path d="M4 4a16 16 0 0 1 16 16"></path>
+                        <circle cx="5" cy="19" r="1"></circle>
+                    </svg>
+                    <h6 class="fs-5">Dynamic content creation</h6>
+                    <p>Leveraging my 600,000 YouTube subscribers, I create engaging video content and write insightful blog posts, including newsletters. These platforms are perfect for educating the community about your projects and initiatives</p>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 40 40" fill="white" stroke="violet" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap ">
+                        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                    </svg>
+                    <h6 class="fs-5 pb-0">Engaging events</h6>
+                    <p>I host a variety of events, both online and in-person, attended by thousands. This includes webinars, podcasts, and more, offering sponsors significant visibility and interaction opportunities with an enthusiastic audience.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 40 40" fill="white" stroke="violet" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-line-chart "><path d="M3 3v18h18"></path>
+                        <path d="m19 9-5 5-4-4-3 3"></path>
+                    </svg>
+                    <h6 class="fs-5">Strategic consulting</h6>
+                    <p>With my experience in growing numerous open-source projects, I provide consultancy services to attract quality contributors and users, enhancing the visibility and impact of your projects.</p>
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 40 40"fill="white" stroke="violet" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart-handshake ">
+                        <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+                        <path d="M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08v0c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66"></path>
+                        <path d="m18 15-2-2"></path>
+                        <path d="m15 18-2-2"></path>
+                    </svg>
+                    <h6 class="fs-5">DevRel support</h6>
+                    <p>I extend support to your Developer Relations efforts, aligning with your team to maximize outreach and engagement, leveraging my expertise to boost your community presence and impact.</p>
+                </div>
+            </div>
+        </div>
+
+
+            <div class="container my-5">
+                <div class="row">
+                <div class="col-12 col-lg-2"></div>
+                <div class="col-12 col-lg-8">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner text-center">
+                            <div class="carousel-item active" style="padding: 10%;">
+                                <img class="w-25 pb-4"  src="https://www.techwithkunal.com/_next/static/media/testimonial_stream_company.06856d1a.svg" class="d-block"  alt="...">
+                                <h4>We've worked on various collaborations with Kunal's community, all of which have been an extraordinary and profitable experience. Kunal's attention to detail, clear expectations, and innovative work paired with his reach is a fantastic combination. The partnership brought in 100+ chat trials in Q4!</h4>
+                                <img class="pt-3" style="width: 7%;" src="https://www.techwithkunal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftestimonial_stream_author.890b0096.png&w=256&q=75" alt="">
+                                <p class="pt-2">Kimmy Leslie</p>
+                            </div>
+                            <div class="carousel-item" style="padding: 10%;">
+                                <img class="w-25 pb-4"  src="https://www.techwithkunal.com/_next/static/media/testimonial_teleport_company.20d7e929.svg" class="d-block"  alt="...">
+                                <h4>Partnering with Kunal and his community was one of the highlights for the Teleport team this year. The quality of content is top-notch, the community engagement is very high, and the ROI is there to prove it. It brought in 10K+ new web sessions and 100+ downloads with majority being new users.</h4>
+                                <img class="pt-3" style="width: 7%;" src="https://www.techwithkunal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftestimonial_teleport_author.fab301f5.png&w=256&q=75" alt="">
+                                <p class="pt-2">Kateryna Ivashchenko
+                                </p>
+                            </div>
+                            <div class="carousel-item" style="padding: 10%;">
+                                <img class="w-25 pb-4"  src="https://www.techwithkunal.com/_next/static/media/testimonial_kubesphere_company.b4d15fc3.svg" class="d-block"  alt="...">
+                                <h4>It's been a great feeling to collaborate with Kunal and his community, and he has made the entire process a pleasure. Kunal has made great contributions to letting more people know the benefits of our services and increase our user base. We got over 11K stars and 5K signups.</h4>
+                                <img class="pt-3" style="width: 7%;" src="https://www.techwithkunal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftestimonial_kubesphere_author.f0c87621.png&w=64&q=75" alt="">
+                                <p class="pt-2">Yun Li</p>
+                            </div>
+                            <div class="carousel-item" style="padding: 10%;">
+                                <img class="w-25 pb-4"  src="https://www.techwithkunal.com/_next/static/media/testimonial_risein_company.601e354f.svg" class="d-block"  alt="...">
+                                <h4>He delivered more than he promised. I am absolutely happy and would keep working with him on a regular basis. It brought in 2000+ signups for our web3 bootcamp!</h4>
+                                <img class="pt-3" style="width: 7%;" src="https://www.techwithkunal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftestimonial_risein_author.8c9254c0.png&w=256&q=75" alt="">
+                                <p class="pt-2">Ankit Raj</p>
+                            </div>
+                            <div class="carousel-item" style="padding: 10%;">
+                                <img class="w-25 pb-4"  src="https://www.techwithkunal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftestimonial_wilco_company.b0199b39.png&w=640&q=75" class="d-block"  alt="...">
+                                <h4>It was extremely successful. We got around 1700 signups through our campaigns. Thank you for everything, Kunal. You have a wonderful community.</h4>
+                                <img class="pt-3" style="width: 7%;" src="https://www.techwithkunal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftestimonial_wilco_author.9e91dcf4.png&w=256&q=75" alt="">
+                                <p class="pt-2">Alexandra Macias</p>
+                            </div>
+                            <div class="carousel-item" style="padding: 10%;">
+                                <img class="w-25 pb-4"  src="https://www.techwithkunal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftestimonial_bootdev_company.1dce2656.png&w=640&q=75" class="d-block"  alt="...">
+                                <h4>Fantastic, looking forward to more. I think you're doing great, I'd love to continue swinging by the channel whenever you feel it's appropriate. Boot.dev has a YouTube channel now, so I'd love to have you on there as well.</h4>
+                                <img class="pt-3" style="width: 7%;" src="https://www.techwithkunal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftestimonial_bootdev_author.49e7f0d6.png&w=256&q=75" alt="">
+                                <p class="pt-2">Lane</p>
+                            </div>
+                            <div class="carousel-item" style="padding: 10%;">
+                                <img class="w-25 pb-4"  src="https://www.techwithkunal.com/_next/static/media/testimonial_kubesphere_company.b4d15fc3.svg" class="d-block"  alt="...">
+                                <h4>Very efficient, smooth communication and focused work. 15+ twitter followers and 30 + starts in two days!</h4>
+                                <img class="pt-3" style="width: 7%;" src="https://www.techwithkunal.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftestimonial_kubesphere_author2.82a41208.png&w=256&q=75" alt="">
+                                <p class="pt-2">Calvin Yu</p>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev" >
+                           <span style="color: #1d2939; background-color: rgb(223, 223, 223); border-radius: 100%; width: 44px;"><p class="pt-2 px-2">&larr;</p></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                            <span style="color: #1d2939; background-color: rgb(233, 233, 233); border-radius: 100%; width: 44px;"><p class="pt-2 px-2">&rarr;</p></span>
+                        </button>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-2"></div>
+                </div>
+            </div>
+
+        <div class="container-fluid" style="background-color: #1d2939;">
+            <div class="container footer1">
+                <div class="row" style="border: solid 1px; border-radius: 5px; ">
+                    <div class="col-12">
+                        <div class="row align-middle" style="margin-top: -60px; background-color: white; padding: 3%; border-radius: 6px;">
+                            <div class="col-12 col-md-6">
+                                <h3>Join the newsletter</h3>
+                                <p>Get the latest insights and updates staight to yout inbox.</p>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <input type="text" class="form-control" placeholder="First name">
+                                        <p style="color: grey;">Your privacy is important. I never share your email.</p>
+                                    </div>
+                                    <div class="col-4">
+                                        <button type="submit" class="btn mb-2 text-white fw-bold" style="background-color: hsla(259, 63%, 59%, 1);">Subscribe</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-white">
+                    <div class="col-12">
+                        <div class="row pt-5">
+                            <div class="col-lg-3">
+                                <h3>Kunal Kushwaha</h3>
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <ul style="list-style: none;">
+                                            <h6 style=" color: hsla(218, 15%, 65%, 1);">Socials</h6>
+                                            <li>YouTube</li>
+                                            <li>Twitter</li>
+                                            <li>LinkedIn</li>
+                                            <li>Instagram</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <ul style="list-style: none;">
+                                            <h6 style=" color: hsla(218, 15%, 65%, 1);">Others</h6>
+                                            <li>GitHub</li>
+                                            <li>Reddit</li>
+                                            <li>Youtube Hindi</li>
+                                            <li>Credly</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <ul style="list-style: none;">
+                                            <h6 style=" color: hsla(218, 15%, 65%, 1);">Resources</h6>
+                                            <li>Home</li>
+                                            <li>Blog</li>
+                                            <li>Sponsorships</li>
+                                            <li>Courses</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-12 text-center">
+                        <div class="part8-div2-div3">
+                            <p class="part8-div2-div3-p1">2024 Kushwaha. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="container-fluid">
+            <div class="row">
+                <div class="part8-div2-div3">
+                    <p class="part8-div2-div3-p1">&#169; 2024 Kushwaha. All rights reserved.</p>
+                </div>
+            </div>
+        </div> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+</body>
+</html>
